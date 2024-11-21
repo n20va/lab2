@@ -1,5 +1,9 @@
 #include <iostream>
-
+#include "sorter/sorter.h"
+#include "Sequence/ArraySequence/ArraySequence.h"
+#include "tests/tests.h"
 int main() {
-   std::cout << "i'm lab2";
+   run_tests();
+   return 0;
+
 }
